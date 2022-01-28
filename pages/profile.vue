@@ -1,0 +1,29 @@
+<template>
+    <div>
+        <Header/>
+        <div class="l-profile">
+            <p class="l-profile__content">はじめまして。<br>サイト運営者のいさじです。<br>私はアラフォーです。<br>Youbrideとゼクシイ縁結びで婚活をしていますがそこで体験した内容について解説します。<br>アラサーになると大体の人が婚活サイトを使うことになると思いますが<span>中々うまくいきません。</span><br>婚活サイトは中々変な発言や行動を取る人が多い印象です。<br>こんな美人が何で婚活サイトを使うんだろうと思ったら<span>会う日の当日にドタキャンをする頭が変な人</span>だったり会ったときに<span>私に暴言を言う人</span>もいました。<br>私がひどい目に遭った体験談も余さず解説しますので婚活をしている人は私のようにひどい目に遭わないで下さい。</p>
+        </div>
+        <Footer/>
+    </div>
+</template>
+
+<style lang="scss">
+.l-profile {
+    width: 1000px;
+    min-height: 100vh;
+    margin: 50px auto;
+    @media screen and (max-width:1023px){
+        width: 750px;
+    }
+    @media screen and (max-width:768px){
+        width: 90%;
+    }
+    &__content{
+        line-height:2em;
+    }
+    span{
+        color:#E84F82;
+    }
+}
+</style>
